@@ -1,0 +1,11 @@
+@import "layout";
+@import "theme";
+@import "break-points";
+@import "layout";
+
+.banner {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px;
+}

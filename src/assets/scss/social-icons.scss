@@ -1,0 +1,48 @@
+.shareLinks {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.shareLinks > li {
+  display: inline-block;
+}
+
+.shareLinks > li:hover a {
+  background: #E84545;
+  border-color: #E84545;
+  color: #fff;
+}
+
+.shareLinks > li + li {
+  margin-left: 5px;
+}
+
+.shareLinks > li > a {
+  padding: 10px;
+  border-radius: 2px;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 5px;
+  text-align: center;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamShareLinks {
+  margin-top: 30px;
+  justify-content: left;
+}
+
+.teamShareLinks > li > a {
+  color: #C6CACC;
+  border: 1px solid #e8ecee;
+}
+
+.footerShareLinks > li > a {
+  color: #fff;
+  border: 2px solid #fff;
+}

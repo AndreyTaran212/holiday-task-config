@@ -1,0 +1,48 @@
+@import "layout";
+@import "theme";
+@import "break-points";
+@import "layout";
+@import "social-icons";
+
+.our-team {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 100px 0 100px;
+}
+
+.teamItem {
+  text-align: left;
+  width: 270px;
+  margin: 0 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.teamItem > img {
+  width: 100%;
+}
+
+.teamItem > h4 {
+  color: #2d3033;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  line-height: 24.2px;
+}
+
+.teamItem > h5 {
+  color: #e84545;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.teamItem > p {
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #6c7279;
+}

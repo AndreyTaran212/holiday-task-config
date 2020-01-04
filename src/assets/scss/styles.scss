@@ -1,4 +1,10 @@
 @import "footer";
+@import "header";
+@import "banner";
+@import "top-container";
+@import "features";
+@import "work-photo";
+@import "team";
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -24,12 +30,16 @@ body {
 }
 
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
-a:hover, a:active{
+a:hover, a:active {
 
   transition: background-color, color, 0.3s;
+}
+
+h1 {
+  margin: 20px 0 10px;
 }

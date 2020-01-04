@@ -1,0 +1,65 @@
+@import "layout";
+@import "theme";
+@import "break-points";
+@import "layout";
+
+.main-info {
+  color: #fff;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 45%;
+  text-align: center;
+  @media screen and (min-width: $md) {
+    padding-top: 30%;
+  }
+  @media screen and (min-width: $lg) {
+    margin-left: 8.3333%;
+    width: 83.33333333%;
+    padding-top: 20%;
+  }
+}
+
+.main-info > h1 {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.1;
+  text-align: center;
+  @media screen and (min-width: $md) {
+    font-size: 42px;
+  }
+  @media screen and (min-width: $lg) {
+    font-size: 65px;
+  }
+}
+
+.main-info p {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 80px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  @media screen and (min-width: $lg) {
+    font-size: 22px;
+    font-weight: 400;
+  }
+}
+
+.button-large {
+  padding: 15px 40px;
+  background-color: #e84545;
+  border: 0;
+  border-radius: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.button-large:hover {
+  background-color: #e52e2e;
+}

@@ -1,0 +1,100 @@
+@import "layout";
+@import "theme";
+@import "break-points";
+@import "layout";
+
+.photo > img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.container-work {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #6c7279;
+  font-size: 14px;
+  line-height: 1.42857143;
+  @media screen and (min-width: $md) {
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+.photo {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 0.5px;
+  position: relative;
+  @media screen and (min-width: $md) {
+    width: 49%;
+  }
+  @media screen and (min-width: $xl) {
+    width: 24.9%;
+  }
+}
+
+.overlay {
+  transition: 0.35s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(232, 69, 69, 0.9);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-caption {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-caption > h5 {
+  position: absolute;
+  margin-top: -15px;
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 10px;
+  transition: 0.4s;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+
+.overlay-caption > p {
+  position: absolute;
+  margin-top: 5px;
+  color: #fff;
+  font-size: 12px;
+  transition: 0.4s;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+.photo:hover > .overlay > h5 {
+  margin-top: -15px;
+}
+
+.photo:hover > .workOverlay > p {
+  margin-top: 5px;
+}
+
+.photo:hover > .overlay,
+.photo:hover > img {
+  opacity: 1;
+  transform: scale(1.2);
+  transition: 0.5s;
+}

@@ -1,0 +1,160 @@
+@import "layout";
+@import "theme";
+@import "break-points";
+@import "layout";
+
+header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 105px;
+  z-index: 99999;
+  position: fixed;
+  margin: 0;
+}
+
+header > div {
+  width: 90%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 105px;
+  align-items: center;
+  margin: 0 auto;
+  transition-duration: 0.3s;
+}
+
+.nav-scroll {
+  height: 74px !important;
+  background-color: #292c47 !important;
+  width: 100%;
+  padding: 0 20px 0 20px;
+  border-bottom: none;
+  transition-duration: 0.3s;
+}
+
+.menuBtn {
+  height: 44px;
+  overflow: hidden;
+  @media screen and (min-width: $lg) {
+    display: none;
+  }
+  right: 5%;
+  text-indent: 100%;
+  top: 32px;
+  white-space: nowrap;
+  width: 44px;
+  z-index: 99999;
+  background-color: $accent-color;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.desktopNav {
+  display: none;
+  @media screen and (min-width: $lg) {
+    display: block;
+  }
+
+}
+
+#desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#desktop-nav > li + li {
+  margin-left: 40px;
+}
+
+#desktop-nav > li > a {
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#desktop-nav > li > a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navigation {
+  display: none;
+  position: fixed;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 5%;
+  z-index: 99999;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+.navigation-open {
+  display: flex !important;
+  opacity: 0.9;
+  visibility: visible;
+  transition: opacity 0.5s;
+}
+
+.mobile-nav {
+  height: 320px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  top: 45%;
+  transform: translateY(-45%);
+  color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  cursor: pointer;
+}
+
+.mobile-nav > li {
+  margin: 15px;
+}
+
+.menuBtn > .span {
+  width: 18px;
+  height: 3px;
+  background-color: white;
+  transform-origin: left center;
+  transition: 0.3s;
+}
+
+.after {
+  margin-top: 3px;
+}
+
+.before {
+  margin-bottom: 3px;
+}
+
+.buttonTransform > div:first-child {
+  transform: rotate(42deg);
+  margin-left: 3px;
+}
+
+.buttonTransform > div:last-child {
+  transform: rotate(-42deg);
+  margin-left: 3px;
+}
+
+.buttonTransform > .middle {
+  opacity: 0;
+}
