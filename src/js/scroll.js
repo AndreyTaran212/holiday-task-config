@@ -1,3 +1,4 @@
+'use strict';
 const scroll = 30;
 
 const header = document.getElementById('header');

@@ -10,16 +10,23 @@
   flex-wrap: wrap;
   text-align: center;
   padding: 100px 0 100px;
+  max-width: 1170px;
+  width: 100%;
 }
 
 .teamItem {
   text-align: left;
-  width: 270px;
-  margin: 0 20px 50px;
+  max-width: 270px;
+  margin: 0 auto 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  @media screen and (min-width: $lg) {
+    max-width: 25% !important;
+    margin: 0;
+    padding: 0 15px;
+  }
 }
 
 .teamItem > img {

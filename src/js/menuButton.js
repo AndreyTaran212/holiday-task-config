@@ -1,3 +1,4 @@
+'use strict';
 const mobileNav = document.getElementById('mobile-nav');
 const menuBtn = document.getElementById('menuBtn');
 let menuIsOpen = false;

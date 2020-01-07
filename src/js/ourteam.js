@@ -1,3 +1,4 @@
+'use strict';
 const teamContainer = document.getElementById('our-team');
 
 fetch('./data/employees.json')
