@@ -124,6 +124,10 @@ header > div {
   opacity: 0.9;
   visibility: visible;
   transition: opacity 0.5s;
+  @media screen and (min-width: $lg) {
+    display: none !important;
+  }
+
 }
 
 .mobile-nav {
@@ -143,6 +147,7 @@ header > div {
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
   cursor: pointer;
+
 }
 
 .mobile-nav > li {

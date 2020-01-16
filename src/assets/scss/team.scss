@@ -7,6 +7,7 @@
 .our-team {
   display: flex;
   justify-content: space-evenly;
+  align-items: stretch;
   flex-wrap: wrap;
   text-align: center;
   padding: 100px 0 100px;
@@ -19,8 +20,8 @@
   max-width: 270px;
   margin: 0 auto 50px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: start;
   flex-direction: column;
   @media screen and (min-width: $lg) {
     max-width: 25% !important;
@@ -52,4 +53,12 @@
   font-size: 14px;
   line-height: 22.4px;
   color: #6c7279;
+  margin: 0 0 30px;
+}
+
+.teamItem > ul {
+  display: flex;
+  flex-direction: row;
+  margin: auto 0 0;
+  justify-content: space-around;
 }

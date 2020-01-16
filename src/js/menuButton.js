@@ -8,9 +8,7 @@ menuBtn.onclick = function () {
 };
 
 mobileNav.addEventListener('click', (e) => {
-    if (e.target.tagName === 'A') {
-        toggleMenu();
-    }
+    toggleMenu();
 });
 
 function toggleMenu() {

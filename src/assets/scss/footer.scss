@@ -23,7 +23,6 @@
 }
 
 
-
 .footerContainer {
   display: flex;
   flex-direction: column;
@@ -42,7 +41,7 @@
   margin-bottom: 50px;
 
 
-  @media screen and (min-width: $md){
+  @media screen and (min-width: $md) {
     margin-bottom: 80px;
   }
 
@@ -54,7 +53,7 @@
   }
 
 
-  li{
+  li {
     display: inline-block;
   }
 
@@ -67,6 +66,9 @@
     background-color: $accent-color;
   }
 
+  li + li {
+    margin-left: 5px;
+  }
 
 }
 
@@ -83,11 +85,11 @@
     color: white;
   }
 
-  a:hover{
+  a:hover {
     color: $accent-color;
   }
 
-  i{
+  i {
     color: $accent-color;
   }
 }

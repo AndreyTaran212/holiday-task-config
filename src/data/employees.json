@@ -5,54 +5,24 @@
     "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "avatar": "./assets/images/team-1.jpg",
     "contacts": [
-      {
-        "link": "facebook.com",
-        "class": "fab fa-facebook-f"
-      },
-      {
-        "link": "twitter.com",
-        "class": "fab fa-twitter"
-      },
-      {
-        "link": "linkedin.com",
-        "class": "fab fa-linkedin-in"
-      },
-      {
-        "link": "google.com",
-        "class": "fab fa-google-plus-g"
-      },
-      {
-        "link": "reddit.com",
-        "class": "fas fa-basketball-ball"
-      }
+      "https://facebook.com",
+      "https://twitter.com",
+      "https://linkedin.com",
+      "https://google.com",
+      "https://dribble.com"
     ]
   },
   {
     "name": "Timothy Reed",
     "position": "CO-FOUNDER, DEVELOPER",
-    "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
+    "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo. aecenas sed diam eget risus varius blandit sit amet non.",
     "avatar": "./assets/images/team-2.jpg",
     "contacts": [
-      {
-        "link": "facebook.com",
-        "class": "fab fa-facebook-f"
-      },
-      {
-        "link": "twitter.com",
-        "class": "fab fa-twitter"
-      },
-      {
-        "link": "linkedin.com",
-        "class": "fab fa-linkedin-in"
-      },
-      {
-        "link": "google.com",
-        "class": "fab fa-google-plus-g"
-      },
-      {
-        "link": "reddit.com",
-        "class": "fas fa-basketball-ball"
-      }
+      "https://facebook.com",
+      "https://twitter.com",
+      "https://linkedin.com",
+      "https://google.com",
+      "https://dribble.com"
     ]
   },
   {
@@ -61,26 +31,11 @@
     "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "avatar": "./assets/images/team-3.jpg",
     "contacts": [
-      {
-        "link": "facebook.com",
-        "class": "fab fa-facebook-f"
-      },
-      {
-        "link": "twitter.com",
-        "class": "fab fa-twitter"
-      },
-      {
-        "link": "linkedin.com",
-        "class": "fab fa-linkedin-in"
-      },
-      {
-        "link": "google.com",
-        "class": "fab fa-google-plus-g"
-      },
-      {
-        "link": "reddit.com",
-        "class": "fas fa-basketball-ball"
-      }
+      "https://facebook.com",
+      "https://twitter.com",
+      "https://linkedin.com",
+      "https://google.com",
+      "https://dribble.com"
     ]
   },
   {
@@ -89,26 +44,11 @@
     "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "avatar": "./assets/images/team-4.jpg",
     "contacts": [
-      {
-        "link": "facebook.com",
-        "class": "fab fa-facebook-f"
-      },
-      {
-        "link": "twitter.com",
-        "class": "fab fa-twitter"
-      },
-      {
-        "link": "linkedin.com",
-        "class": "fab fa-linkedin-in"
-      },
-      {
-        "link": "google.com",
-        "class": "fab fa-google-plus-g"
-      },
-      {
-        "link": "reddit.com",
-        "class": "fas fa-basketball-ball"
-      }
+      "https://facebook.com",
+      "https://twitter.com",
+      "https://linkedin.com",
+      "https://google.com",
+      "https://dribble.com"
     ]
   }
 ]

@@ -1,0 +1,56 @@
+@import "layout";
+@import "theme";
+@import "break-points";
+@import "layout";
+
+.download-container {
+  color: #2d3033;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+  margin: auto;
+  padding: 30px 0;
+  @media screen and (min-width: $lg) {
+    width: 1170px;
+  }
+  @media screen and (min-width: $md) {
+    width: 970px;
+  }
+  @media screen and (min-width: $sm) {
+    width: 720px;
+  }
+
+}
+
+.download-container > h3 {
+  font-size: 28px;
+  color: #2d3033;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.download-container > p {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 22.4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #2d3033;
+  @media screen and (min-width: $lg) {
+  }
+}
+
+.download-container > a {
+  margin-top: 30px;
+}
+
+.download-page-container {
+  display: flex;
+  padding: 100px 0;
+}
