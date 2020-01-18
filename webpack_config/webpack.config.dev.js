@@ -4,7 +4,7 @@ const commonConfig = require( './webpack.config.common.js' );
 
 const developmentConfig = merge( commonConfig, {
     mode: 'development',
-    devtool: 'eval',
+    devtool: 'eval-source-map',
     devServer: {
         contentBase: path.join(__dirname, '../build'),
     },
