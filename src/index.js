@@ -5,8 +5,10 @@ import './assets/scss/styles.scss';
 import './js/menuButton.js';
 import './js/scroll.js';
 import './components/UserListLoader';
+/*
 import './components/SliderLoader';
 import './components/Slider/components/RadioButtons/components/RadioButton/index.js';
-
+*/
+import './js/modalWindow.js';
 
 
